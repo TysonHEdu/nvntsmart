@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 
-const altSpreadSheet = () => {
+const inventoryControl = () => {
     const [searchTerm, setSearchTerm] = useState('');
 
     const handleSearch = () => {
@@ -36,4 +36,4 @@ const altSpreadSheet = () => {
 }
 
 
-export default altSpreadSheet;
+export default inventoryControl;

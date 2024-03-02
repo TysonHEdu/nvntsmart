@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FoodTable = () => {
+const itemInput = () => {
     const foodData = [
         { name: 'Apple', category: 'Fruit', price: 1.99, portion: '6', unitA: 'oz', size: '2', unitB: 'kg', supplier: 'Supplier A'},
         { name: 'Banana', category: 'Fruit', price: 0.99, portion: '6', unitA: 'oz', size: '2', unitB: 'kg', supplier: 'Supplier B' },
@@ -43,4 +43,4 @@ const FoodTable = () => {
     );
 };
 
-export default FoodTable;
+export default itemInput;
